@@ -52,7 +52,7 @@ if (rad_stations[2]!=undefined){
 }
 
 
-var select = '<div style="color: '+g_text_color+';" onclick="return rad_show_stations();" id="rad_select" align="left"><div id="rad_stationname">' + '<img src="https://radiobells.com/stations/' + img +'_70.jpg" align="absmiddle" id="rad_select_main_image"><span id="rad_select_main_text">' + rad_stations[1] + '</span></div><div id="rad_dropdown"></div></div></div>';
+var select = '<div style="color: '+g_text_color+';" onclick="return rad_show_stations();" id="rad_select" align="left"><div id="rad_stationname">' + '<img src="https://radiobells.com/stations/' + img +'_70.jpg" align="absmiddle" id="rad_select_main_image" ><span id="rad_select_main_text">' + rad_stations[1] + '</span></div><div id="rad_dropdown"></div></div></div>';
 	// <div id="rad_dropdown"></div></div>
 
 	select += '<div id="rad_list" style="display: none;" align="left">';
